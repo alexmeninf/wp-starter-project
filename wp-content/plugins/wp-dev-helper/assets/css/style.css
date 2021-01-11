@@ -1,0 +1,13 @@
+.wp-helper-logo {
+  font-variant: small-caps;
+  font-family: 'Open-sans', sans-serif;
+  font-weight: 900;
+}
+
+
+h1.wp-helper-logo img {
+    height: 23px;
+    margin-right: 10px;
+    margin-bottom: -2px;
+    transition: transform 1.5s ease-in-out;
+}
