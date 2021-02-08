@@ -1,0 +1,159 @@
+== Changelog ==
+
+= 1.6.2 =
+ * Bugfix: Updating REST service definition that is causing PHP notice on WP 5.5
+
+= 1.6.1 =
+ * Improvement: Added better logging to file population REST service, to better support cases when it is hanging or not progressing
+ * Bugfix: Success notification email were sent many times, when using it with WP CLI runs
+ * Bugfix: Handle edge case when doing data compression, where some hosting adds header to compressed data, causing error on decompression
+
+= 1.6.0 =
+ * Improvement: Better support HTTPS to HTTP migrations, where it previously were dependent on browser. It no longer is
+ * Improvement: Remove IP validation, as it was causing too much troubles with only minimal value
+ * Improvement: Better support for slow hosting or slow connection speed. Can be enabled in "Setup"
+ * Improvement: Better uninstall hook that cleans up the database and files like a good little plugin
+ * Improvement: Only keep 20 database backups and logs at any point, to prevent it taking up space
+ * Improvement: Support for basic authentication (.htaccess protected sites) on both ends (PRO version)
+ * Improvement: Add hooks for successful and failed synchronizations, for devs to hook into (wpsynchro_synchronization_completed / wpsynchro_synchronization_failure)
+ * Improvement: Tries to clean cache for popular cache solutions after a successful synchronization (WP Rocket/WP Super Cache/W3 Total cache/Comet Cache)
+ * Improvement: Better handles charset and unknown collations - Will now change charset and collation to recommended for WP (utf8mb4)
+ * Improvement: Configure email to send email to on successful/failed synchronization (PRO version)
+ * Improvement: Remove option to set debug logging and just make it the default
+ * Improvement: Add logo to all headers on all pages
+ * Improvement: Massively improved database finalize, doing it chunked instead of in one go, that could create problems on sites with many tables
+ * Improvement: Rewrote the file population algorithm, to make it much faster and safer to run (PRO version)
+ * Improvement: Added new default database search/replace with urlencoded urls, that is used by some page builder plugins
+ * Bugfix: Fix problem when it sometimes try to load a file that does not exist in the free version
+ * Other: Bump minimum supported WP to 4.9 from 4.7
+
+= 1.5.2 =
+ * Bugfix: File population can in certain cases generate REST errors
+
+= 1.5.1 =
+ * Bugfix: Make multisite error a warning instead, to prevent blocking users that want to use it anyway
+ * Bugfix: Make "WP in own dir" error a warning instead of error, improve the path detection and give a more detailed warning message
+ * Improvement: Change JSON debug information to also include file paths and remove the general debug data
+
+= 1.5.0 =
+ * General: Overall improvement of stability and many big and small improvements
+ * Improvement: Support for replacing url's inside json data, such as Elementor templates (wp.org issue)
+ * Improvement: Finally full support for all MySQL datatypes
+ * Improvement: Support for subdirectory sites
+ * Improvement: Search/replaces are not editable and removable, even the default ones
+ * Improvement: General improvement of error messages given to the user
+ * Improvement: Support for WordPress 5.3, which is just around the corner
+ * Improvement: Proper message when doing synchronization from HTTPS site to HTTP site, which Chrome no longer allows
+ * Improvement: Added option in "setup" menu to disable IP security check - Can be needed if requests pass multiple server
+ * Improvement: Proper warning to user on installation creation, if one of the two sites have overlapping paths
+ * Improvement: Add check to make sure database user can create tables in the database
+ * Improvement: Implement PSR4 autoloading with composer
+ * Improvement: More intelligent support for WordPress in its own directory - Such as Roots Bedrock
+ * Improvement: Logs are now rotated and will have max 20 logs at any point - older will be deleted
+ * Improvement: Added a button on "Logs" page to remove all the logs
+ * Improvement: Making it more clear when a "Installation" is new or being edited
+ * Improvement: Better deactivation, that now removes the database tables
+ * Bugfix: Try to prevent REST service call periodic timeouts, which we have seen some users having trouble with
+
+= 1.4.1 =
+ * Highlight: Maintenance release with bugfixes
+ * Improvement: When REST service calls fail, make sure to log more debug logging for easier troubleshooting
+ * Bugfix: Proper error is not thrown when failing file reads because of permissions
+ * Bugfix: Improvement of IP detection function, that in some cases did not return correct IP
+ * Bugfix: In some cases, an endless loop happened when file was remove mid-synchronization
+ * Bugfix: WP CLI had its time limit removed, as it is not relevant in CLI environment
+
+= 1.4.0 =
+ * Highlight: Big improvement to the compatibility with different hosting setups - Everything now runs chunked in 30 seconds or less, which prevents timeouts on some hosting
+ * Bugfix: SAVEQUERIES constant now properly detected
+ * Bugfix: Proper handling of unlimited memory limit and max execution time in PHP
+ * Bugfix: Prevent security token timeout on slow systems
+ * Bugfix: Database backup mistakenly went into endless loop, when having no tables to backup
+
+= 1.3.2 =
+ * Improvement: Make database table prefix migration a option instead of forced - Warning will be issued if it is disabled and prefixes are different
+ * Improvement: Database table prefix migration will now also change prefix in data in the usermeta and options table
+ * Improvement: Added timeout check to healthcheck, to tell people when they have a misconfiguration in their hosting setup
+
+= 1.3.1 =
+ * Hotfix: Error in frontend timer causing error in synchronization even if synchronization running fine
+
+= 1.3.0 =
+ * Highlight: WP CLI command to run synchronizations via cron or other external trigger (see submenu "Schedule" on installation in overview screen)
+ * Highlight: Support migration between installations using different table prefixes - Will automatically change it
+ * Highlight: Major improvement to the data transport - All data will now be compressed and encrypted, regardless of using HTTPS or not
+ * Improvement: Handling all the timing in a central way, to optimize timers and decrease risk of hitting PHP max_execution_time limits
+ * Improvement: Adding a "Duplicate" option to the overview, so its quick and easy so setup new installations
+ * Improvement: Downloading log files is not downloaded as zip file, because logs can get big
+ * Improvement: Better handling of problems with uppercase database table names, that is not supported on all databases
+ * Bugfix: Trying to write a filename with a unsupported filename will now generate warning instead of error
+
+= 1.2.0 =
+ * Highlight: Major rewrite of files synchronization and many improvements in database synchronization
+ * Highlight: Implementing preconfigured synchronization setups, to make it simple for those just wanting to move everything
+ * Highlight: Database backup before database migration (PRO version only)
+ * Improvement: Improve selective synchronization of files - Much faster and safer
+ * Improvement: Support for PHP's open_basedir configurations
+ * Improvement: Search/replaces on domain and web root are now locked, but still possible to add custom
+ * Improvement: Implemented retries for all requests if one of the servers has temporary problems
+ * Improvement: Improvement of security by using sha256 instead of sha1 for token
+ * Improvement: Support for migration of database tables close to the 65 char limit
+ * Improvement: No more data store in temp file on disk - Moved to database table instead
+ * Improvement: Makes finalize more likely to complete with success
+ * Improvement: Less aggressive "Buy PRO" ad. Moved to the side instead of being a bit too annoying
+ * Improvement: General UI improvements, with better text and icons
+ * Improvement: Support for database tables with uppercase letters
+ * Improvement: Support for MariaDB 5.5
+ * Improvement: Support for sites using upload_path and upload_url_path
+ * Improvement: Removed option to preserve WP Synchro data - It is now forced to prevent troubles
+ * Bugfix: Pull/push filtering on overview now works again
+ * Bugfix: Handle properly when max_post_size is set to 0
+ * Bugfix: Fixed database search/replace in serialization with special case
+
+= 1.1.0 =
+ * Highlight: Massive performance improvement for all migrations - Now using MU plugin to skip plugins/themes loading for WP Synchro requests
+ * Highlight: Self healthcheck that will self-diagnose known troubles on each site
+ * Improvement: Make frontend JS more tolerant of intermittent host timeouts
+ * Improvement: Support for self-signed certificates
+ * Bugfix: Fixed a lot of smaller bugs on database sync
+ * Bugfix: Fixed bugs when syncing files with special characters, such as the Danish æøå
+
+= 1.0.5 =
+* WordPress 5.0 compatibility
+* PHP 7.3 compatibility
+* Bugfix: Fixed compatibility with some WordFence plugin tables, that use binary columns for some obscure reason
+* Feature: Add index.php to uploads folder for security
+* Feature: Add buffering to logger, to increase performance
+* Feature: Add timer to run sync window, so elapsed time can be seen
+* Feature: Make is possible to rearrange search/replaces in installation configuration
+* Feature: Create section in Support menu, to make is possible to clean the database and disk for WP Synchro artifacts
+* Feature: Hide license key on the frontend
+* Feature: For large file transfer, take the partial progress into account in global progress indicator
+* Feature: Introduce Log menu, where synchronization logs can be viewed and downloaded
+* Feature: Better error messages when access key is wrong
+
+= 1.0.4 =
+* Bugfix: Fixed typo in REST services require that broke synchronization on *nix hosts
+
+= 1.0.3 =
+* First release of PRO version with file synchronization! Check out wpsynchro.com
+* Added debug page
+* Added .pot file for translation
+* Added localization for js
+* Added details to progress indicators (with data amount and ex. rows for database sync)
+* Added verification that both ends of synchronization is same version to prevent crazy stuff
+* Added database version, so we can handle that going forward
+* Added http warning in add/edit screen
+* Changed so first search/replace will be there as default on new
+* Simplified readme.txt
+* Cleaned up code around synchronization
+
+= 1.0.2 =
+* Bugfixing
+
+= 1.0.1 =
+* Added MySQL 5.5 support
+
+= 1.0.0 =
+* First official release
+* Such cool, much wow

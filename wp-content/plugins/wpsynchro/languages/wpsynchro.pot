@@ -1,0 +1,2175 @@
+# Copyright (C) 2020 WPSynchro
+# This file is distributed under the same license as the WP Synchro plugin.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Synchro 1.6.1rc1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpsynchro\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-06-15 14:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: wpsynchro\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;"
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/CommonFunctions.php:74
+#, php-format
+msgid "WP Synchro requires PHP version %s or higher - Please update your PHP"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/CommonFunctions.php:84
+#, php-format
+msgid ""
+"WP Synchro requires MySQL version %s or higher - Please update your MySQL"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/CommonFunctions.php:93
+#, php-format
+msgid ""
+"WP Synchro requires WordPress version %s or higher - Please update your "
+"WordPress"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Installation.php:87
+msgid "Synchronize"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Installation.php:90
+#, php-format
+msgid "from <b>this installation</b> to <b>%s</b> "
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Installation.php:92
+#, php-format
+msgid "<b>from %s</b> to <b>this installation</b>"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Installation.php:96
+msgid "Self-signed and non-valid SSL certificates allowed"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Installation.php:100
+msgid "Synchronize entire site (database and files)"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Installation.php:102
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:282
+msgid "Synchronize entire database"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Installation.php:104
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:277
+msgid "Synchronize all files"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Installation.php:107
+msgid "Custom synchronization - But no data chosen for sync"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Installation.php:109
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:287
+msgid "Custom synchronization"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Installation.php:116
+msgid "Database backup: All database tables will be exported"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Installation.php:118
+#, php-format
+msgid "Database backup: Will backup %d selected tables. "
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Installation.php:125
+msgid "Database: All database tables will be migrated"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Installation.php:127
+#, php-format
+msgid "Database: Will migrate %d selected tables. "
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Installation.php:134
+msgid "Files: One location will be migrated"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Installation.php:136
+#, php-format
+msgid "Files: %d locations will be migrated"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Installation.php:139
+msgid "Files: No locations chosen for synchronization"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Installation.php:166
+msgid "File migration is only available in PRO version"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Installation.php:170
+msgid "Database backup is only available in PRO version"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Licensing.php:119
+msgid ""
+"License validation failed - Please update your license or contact support"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Licensing.php:198
+#, php-format
+msgid ""
+"%s uses a WP Synchro PRO version that can not be validated using the current "
+"license key. Update license key on this site to a valid one and try again. "
+"This can be done in menu WP Synchro > Licensing."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Licensing.php:259
+msgid "Synchronization was denied by license server - Check log for details"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/SynchronizeController.php:83
+msgid "Job is already running or error has happened - Check PHP error logs"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/WPSynchroBootstrap.php:144
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminOverview.php:125
+msgid "Overview"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/WPSynchroBootstrap.php:145
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminLog.php:56
+msgid "Logs"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/WPSynchroBootstrap.php:146
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSetup.php:140
+msgid "Setup"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/WPSynchroBootstrap.php:147
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSupport.php:63
+msgid "Support"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/WPSynchroBootstrap.php:149
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminLicensing.php:63
+msgid "Licensing"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/CLI/WPCLICommand.php:43
+#, php-format
+msgid ""
+"Installation id \"%s\" could not be found. Make sure it is identical to the "
+"one found on the overview page in WP Synchro."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/CLI/WPCLICommand.php:53
+msgid "Starting synchronization..."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/CLI/WPCLICommand.php:75
+msgid "Synchronization has completed without errors"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Database/DatabaseBackup.php:108
+msgid ""
+"Database backup REST Service responded with error, which means we can not "
+"continue the synchronization."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Database/DatabaseBackup.php:217
+#, php-format
+msgid "Row %d / %d"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Database/DatabaseFinalize.php:53
+msgid "Preparing database finalize"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Database/DatabaseFinalize.php:65
+#, php-format
+msgid "Finalizing table %d out of %d"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Database/DatabaseFinalize.php:96
+#, php-format
+msgid "Removing old temporary table - %d out of %d"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Database/DatabaseFinalize.php:117
+msgid "Check that all tables on target is in correct case"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Database/DatabaseFinalize.php:170
+#, php-format
+msgid ""
+"Finalize: Error in database synchronization for table %s - It is not "
+"transferred"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Database/DatabaseFinalize.php:327
+msgid "Could not retrieve data from remote site for finalizing"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Database/DatabaseFinalize.php:395
+#, php-format
+msgid ""
+"Finalize: Table %s is not found with the correct case. We found a table "
+"called %s. This may or may not give you problems. This happens due to SQL "
+"server configuration."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Database/DatabaseFinalize.php:399
+#, php-format
+msgid ""
+"Finalize: Table %s is not found on target. It may be a problem with the "
+"rename from temp table name."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Database/DatabaseFinalize.php:418
+#, php-format
+msgid ""
+"Finalize: Error in database synchronization for table %s - It should not "
+"contain any rows"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Database/DatabaseFinalize.php:424
+#, php-format
+msgid ""
+"Finalize: Error in database synchronization for table %s - No rows has been "
+"transferred, but should contain %d rows. Normally this is because the "
+"ressource limits has been hit and the database content is too large. Contact "
+"support is this continues to fail."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Database/DatabaseFinalize.php:430
+#, php-format
+msgid ""
+"Finalize: Warning in database synchronization for table %s - It differs more "
+"than %d%% in size, which indicate something has gone wrong during transfer. "
+"We found %d rows, but expected around %d rows."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Database/DatabaseSync.php:334
+msgid ""
+"Database synchronization failed with error, which means we can not continue "
+"the synchronization."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Database/DatabaseSync.php:452
+#, php-format
+msgid ""
+"Large row with binary column ignored from table: %s - Size of value: %d - "
+"Increase memory limit on server"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Database/DatabaseSync.php:478
+#, php-format
+msgid ""
+"Large row ignored from table: %s - Size: %d - This happens when a table row "
+"is larger than your system limits allows. These limits are a combination of "
+"max SQL packet size, memory limitsand PHP max_post_size on both ends of the "
+"synchronization."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Database/DatabaseSync.php:766
+#, php-format
+msgid "Data: %s / %s - Rows: %s / %s"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Files/FilesSync.php:112
+msgid "Populating files (please wait)"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Files/FilesSync.php:118
+msgid "Determine files to delete and transfer"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Files/FilesSync.php:123
+msgid "Transferring files"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Files/FinalizeFiles.php:57
+#, php-format
+msgid "Optimizing files to delete: %d"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Files/FinalizeFiles.php:64
+#, php-format
+msgid "Remaining files to delete: %d"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Files/FinalizeFiles.php:159
+msgid ""
+"Failed during finalizing files, which means we can not continue the "
+"synchronization."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Files/PopulateListHandler.php:181
+#, php-format
+msgid ""
+"Found overlapping filepaths to synchronize: %s and %s. Please remove one of "
+"them before starting again."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Files/PopulateListHandler.php:321
+msgid ""
+"Data returned during file population is invalid, which means we can not "
+"continue the synchronization."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Files/PopulateListHandler.php:325
+msgid ""
+"File population failed, which means we can not continue the synchronization."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Files/SyncList.php:43
+msgid ""
+"Could not create table needed for file population on this site - This is "
+"normally because database user does not have access to create tables on the "
+"database."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Files/SyncList.php:101
+msgid "All files in webroot"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Files/SyncList.php:119
+msgid "Filelocation"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Files/SyncList.php:158
+msgid ""
+"Could not complete inserting file list into database in time before PHP "
+"timeout. You should increse PHP max_execution_time to prevent this error. Or "
+"you can make a custom synchronization with only the needed files."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Files/SyncList.php:447
+#, php-format
+msgid "(Source: %s files - Target: %s files)"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Files/SyncList.php:458
+#, php-format
+msgid "(File: %d / %d - Size: %s / %s)"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Files/TransferFiles.php:115
+msgid ""
+"Failed during transfer of files to remote site, which means we can not "
+"continue the synchronization."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Files/TransferFiles.php:165
+msgid ""
+"Failed during fetching files from remote site, which means we can not "
+"continue the synchronization."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Files/TransportHandler.php:33
+#, php-format
+msgid "File no longer exist or could not be read: %s  - Ignoring"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Files/TransportHandler.php:50
+#, php-format
+msgid ""
+"Could not delete file %s on target before creating directory with same "
+"location"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Files/TransportHandler.php:58
+#, php-format
+msgid "Could not create directory %s on target - Check permissions are correct"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Files/TransportHandler.php:87
+#, php-format
+msgid ""
+"Creating file %s failed - Could not write to filesystem - This is normally "
+"due to filename not being supported on target platform or because of wrong "
+"permissions."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Files/TransportHandler.php:93
+#, php-format
+msgid "Appending temporary filedata to %s failed."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Files/TransportHandler.php:100
+#, php-format
+msgid "Could not create directory %s on target for file %s. Check permissions."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Finalize/FinalizeSync.php:147
+msgid ""
+"Some finalize actions failed to run - This can be cache clearing error or "
+"other error from target site. This normally does not impact the "
+"synchronization that much and therefore just a warning."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Initiate/InitiateSync.php:61
+msgid "Failed initializing - Could not get a valid token from local server"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Initiate/InitiateSync.php:69
+msgid "Failed initializing - Could not get a valid token from remote server"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Initiate/InitiateSync.php:99
+msgid "Failed initializing - No 'to' token could be found after initialize"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Initiate/InitiateSync.php:102
+msgid "Failed initializing - No 'from' token could be found after initialize"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Initiate/InitiateSync.php:135
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/REST/VerifyInstallation.php:165
+#, php-format
+msgid ""
+"Could not initialize with %s - Check that WP Synchro is installed, "
+"connection to the site is not blocked and that health check runs without "
+"errors on the site"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Initiate/InitiateTokenRetrieval.php:78
+msgid ""
+" - If it is the remote site, this is normally caused by using the wrong "
+"access key to this site."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Masterdata/MasterdataSync.php:58
+#, php-format
+msgid ""
+"Did not retrieve correct database masterdata from target '%s' - See log file"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Masterdata/MasterdataSync.php:75
+#, php-format
+msgid ""
+"WP Synchro plugin versions do not match on both sides. One runs version %s "
+"and other runs %s. Make sure they use same version to prevent problems "
+"caused by different versions of plugin."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Masterdata/MasterdataSync.php:80
+#, php-format
+msgid ""
+"Database table prefixes are different on the source and target site. Source "
+"uses '%s' and target uses '%s'. Table prefix migration is not enabled in the "
+"installation configuration. This is just a warning, as the synchronization "
+"can complete, but the tables will not be used by the target site. "
+"Recommended action is to turn on the table prefix migration in the "
+"installation configuration."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Masterdata/MasterdataSync.php:234
+#, php-format
+msgid ""
+"Could not retrieve masterdata from target '%s', which means we can not "
+"continue the synchronization."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Masterdata/MasterdataSync.php:282
+#, php-format
+msgid ""
+"If you are moving uploads directory (media), you must add the following line "
+"to your wp-config.php on the site %s : <code>%s</code> - Make sure to add "
+"this line before loading WordPress in the bottom of wp-config.php"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Masterdata/MasterdataSync.php:284
+msgid ""
+"All users from multisite is moved - Make sure to check and remove unwanted "
+"users on single site."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Masterdata/MasterdataSync.php:288
+msgid ""
+"Users from source single site was merged with the users on the multisite. "
+"Make sure to check that the users are as expected."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:52
+msgid ""
+"Could not get token from remote server - Is WP Synchro installed and "
+"activated?"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:53
+msgid ""
+"Got a response from remote site, but did not get correct response - Check "
+"access key and website url"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:54
+msgid ""
+"No proper response from remote server - Check that website and access key is "
+"correct and WP Synchro is activated"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:55
+msgid ""
+"No proper transfer token to use for safe communication - Try with another "
+"browser. Eg. newest Chrome."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:56
+msgid ""
+"Could not connect to remote service - Check access key, website url and WP "
+"Synchro is activated"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:57
+msgid "Debug information - HTTP code: {0} - Response: {1}"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:58
+msgid "Could not grab the database tables names from remote"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:59
+msgid ""
+"Could not grab the file data from remote - It may be caused by different "
+"versions of WP Synchro"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:60
+msgid "Please choose a name for this installation"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:61
+msgid "Website or access key is not valid"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:62
+msgid ""
+"One of the sites seem to be using a non-standard location for WordPress core "
+"compared with the web root. This needs to be the same on both ends if "
+"synchronization also includes files. If you are just synchronizing database, "
+"you can ignore this warning. Source web root was: {0} and source WP dir: {1}."
+" Target web root was {2} and target WP dir: {3}."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:63
+msgid ""
+"Sites are using different versions of WP Synchro. One uses {0} and the other "
+"uses {1}. Upgrade to newest version."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:64
+msgid ""
+"The web root for the {0} site is overlapping with the {1} site web root. "
+"This is not a problem if it is on a different server, but if they have "
+"overlapping paths on the same server, it will create problems if you try to "
+"synchronize all files. To prevent problems, make sure each site has its own "
+"location with no other sites inside. Database synchronization will work "
+"without problems. For more information, see the documentation on sub "
+"directory sites on wpsynchro.com"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:65
+msgid ""
+"Email list from 'notify success' in General Settings is not valid. Emails "
+"must be valid and separated by semicolon."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:66
+msgid ""
+"Email list from 'notify errors' in General Settings is not valid. Emails "
+"must be valid and separated by semicolon."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:67
+msgid ""
+"Get PRO version now to start doing file synchronization and more! Free 14 "
+"day trial - Creditcard required"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:68
+msgid "PRO version only"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:74
+msgid "This should not be synced and will be excluded from migrations"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:75
+msgid "Choose the entire dir or use the other add buttons"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:81
+msgid "Add files or directories to migrate"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:82
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:502
+msgid "Keep"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:83
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:503
+msgid "Clean"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:84
+msgid ""
+"Keep files on target not present on source. Faster, but will potentially "
+"leave unused files on target"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:85
+msgid ""
+"Delete files on target not present on source. Slower, but more clean, "
+"because unused files will be removed"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:86
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:355
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:371
+msgid "Exclusions"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:87
+msgid ""
+"Exclusions to be applied to this location. Will be matched as substring on "
+"the path, so be careful. Separate with comma. Like: ignoredir,otherignoredir"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:88
+msgid "Cancel"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:89
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:469
+msgid "Save"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:90
+msgid ""
+"Could not fetch filedata - Normally due to a timed out security token. "
+"Refresh page and continue."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:96
+msgid "Edit installation"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:96
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminOverview.php:128
+msgid "Add installation"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:108
+msgid "Installation is now saved"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:108
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:110
+msgid "Go back to overview"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:110
+msgid "Installation is now created"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:113
+msgid ""
+"Fill out the details of the installation to be synced to chosen location."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:119
+msgid "Installation"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:121
+msgid "Choose a name"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:124
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminOverview.php:129
+msgid "Name"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:131
+msgid "Type of synchronization"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:134
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:352
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminOverview.php:130
+msgid "Type"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:137
+msgid "Pull from remote server to this installation "
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:138
+msgid "Push this installation to remote server"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:143
+msgid "Where to pull from"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:144
+msgid "Where to push to"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:148
+msgid "Website (full url)"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:151
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:159
+msgid "Validated"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:156
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSetup.php:168
+msgid "Access key"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:160
+msgid "Show connection options"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:160
+msgid "Such as the remote site being protected by basic authentication"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:166
+msgid "Connection options"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:170
+msgid "Connection"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:173
+msgid "Direct connection (default)"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:174
+msgid "Basic authentication (username+password)"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:180
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSetup.php:194
+msgid "Basic authentication"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:190
+msgid "Verify SSL certificate"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:193
+msgid ""
+"Verify SSL certificates - Uncheck this if you want to allow self-signed "
+"certificates"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:198
+msgid "Verify connection to remote site"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:204
+msgid "Errors was found"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:213
+msgid "Warnings was found"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:221
+msgid "Multisite synchronization"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:223
+msgid ""
+"Multisite synchronization is not supported, so if you want to try to use it "
+"anyway, make sure to test it in a safe manner."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:227
+msgid "General settings"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:231
+msgid "Clear cache on success"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:234
+msgid "Clear the cache on the target on successful synchronization"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:235
+msgid ""
+"Attempt to clear cache on target on successful synchronization - support "
+"most popular caching plugins where programmatic clearing is supported."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:241
+msgid "Notify emails on success"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:244
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:255
+msgid "test@example.com;test2@example.com"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:245
+msgid "Send emails to email list when synchronization is successful."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:245
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:256
+msgid "Emails are separated by semicolon. If empty, no emails will be sent."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:245
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:256
+msgid "Uses WordPress standard function wp_mail() to send emails."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:252
+msgid "Notify emails on error"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:256
+msgid "Send emails to email list when synchronization fails."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:264
+msgid "Data to synchronize"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:268
+msgid "Preconfigured migrations"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:272
+msgid "Synchronize entire site"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:273
+msgid ""
+"Backup database, synchronize database, synchronize all files from web root "
+"level (except WordPress core files)"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:278
+msgid "Synchronize all files from web root level (except WordPress core files)"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:283
+msgid "Backup database and synchronize all database tables"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:283
+msgid "Backup database (Only PRO version) and synchronize all database tables"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:288
+msgid "Configure exactly what you want to synchronize"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:296
+msgid "Choose data to synchronize"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:300
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Status/SynchronizeStatus.php:74
+msgid "Synchronize files"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:304
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Status/SynchronizeStatus.php:69
+msgid "Synchronize database"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:311
+msgid "Files synchronization"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:313
+msgid "Files and directories to migrate"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:314
+msgid ""
+"Choose the files or directories you want to migrate and how it should be "
+"handled."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:317
+msgid ""
+"Disabled because read or write access to this location is disabled on the "
+"source or target server - Normally by PHPs open_basedir setting"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:318
+msgid ""
+"Disabled because read or write access to this location is disabled on the "
+"source or target server - Normally by incorrect file permissions"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:321
+msgid "Add from outside web root"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:322
+msgid "Add from web root"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:323
+msgid "Add from wp-content"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:328
+msgid "Web root"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:329
+msgid "Themes"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:330
+msgid "Plugins"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:331
+msgid "Uploads"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:334
+msgid "Locations"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:335
+msgid "No files or directories selected yet. Add them with the buttons above."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:342
+msgid "Please correct these locations:"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:344
+msgid "<u>{{paths[0]}}</u> overlaps with <u>{{paths[1]}}</u>"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:353
+msgid "Full path"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:354
+msgid "Strategy"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:367
+msgid "General exclusions"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:368
+msgid ""
+"Exclude files or directories, separated by comma. Ex: .htaccess,favicon.ico,"
+"my-secret-dir"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:368
+msgid ""
+"WP folders wp-admin, wp-includes and WP files in web root, as well as WP "
+"Synchro plugin and data are excluded."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:368
+msgid ""
+"These are applied to all file locations chosen in file/dir location list."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:381
+msgid "Database synchronization"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:382
+msgid "Database migration settings"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:385
+msgid "Backup database tables"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:388
+msgid "Backup chosen database tables to file"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:388
+msgid ""
+"Backup database tables before overwriting them. Will be written to a .sql "
+"file that can be imported again by phpmyadmin or equal tools."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:388
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:398
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:407
+msgid "Recommended"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:395
+msgid "Table prefix migration"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:398
+msgid "Migrate table prefix and data if needed"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:398
+msgid ""
+"Will rename database tables, so they match the correct prefix on target - "
+"Will also rename keys in rows in options and usermeta tables. This may cause "
+"problems, if the renames accidentally renames something it shouldnt, that is "
+"custom or used by another plugin"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:404
+msgid "Active plugins"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:407
+msgid "Preserve active plugins settings"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:407
+msgid ""
+"Preserve which plugins are activated and which ones are not. When enabled, "
+"you will not risk having other plugins activated, that you dont already have "
+"activated"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:411
+msgid "Search/replace"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:412
+msgid "Add your project specific search/replaces."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:412
+msgid ""
+"Search/replace is done in a case sensitive manner and in the order listed "
+"below."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:417
+msgid "Search"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:418
+msgid "Replace"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:432
+msgid "Add replace"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:433
+msgid "Reset to recommended"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:436
+msgid "Tables to synchronize"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:439
+msgid "Database tables"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:440
+msgid ""
+"<u>Win</u>: CTRL-A to mark all - Select/deselect tables by holding CTRL "
+"while clicking table"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:441
+msgid ""
+"<u>Mac</u>: &#8984;-A to mark all - Select/deselect tables by holding &#8984;"
+" while clicking table"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:444
+msgid "Synchronize all database tables"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:459
+msgid "Could not save due to validation issues"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:467
+msgid "Save installation"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:498
+msgid "File"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:498
+msgid "Dir"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:502
+msgid "Files on target not existing on source will be kept"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:503
+msgid "Files on target not present on source will be deleted"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:504
+msgid "Overwrite"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:504
+msgid "File will be overwritten"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:506
+msgid "N/A"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminAddEdit.php:507
+msgid "Delete this location"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminLicensing.php:64
+msgid ""
+"Here you can insert your license key for your PRO version, so you can use "
+"the full functionality of WP Synchro PRO."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminLicensing.php:67
+msgid "Your license"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminLicensing.php:68
+msgid ""
+"Your license key can be found on <a href=\"https://wpsynchro.com\" "
+"target=\"_blank\">https://wpsynchro.com</a> on My Account after login in "
+"with your credentials."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminLicensing.php:68
+msgid ""
+"The license key will be validated against license server and will be "
+"revalidated every day automatically."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminLicensing.php:71
+msgid "Currently used license key"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminLicensing.php:73
+#, php-format
+msgid "starts with %s and ends with %s"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminLicensing.php:75
+msgid "no license key"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminLicensing.php:89
+#, php-format
+msgid ""
+"License is in a unknown state - We are retrying to contact license server to "
+"determine state - Attempt %d of %d"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminLicensing.php:90
+#, php-format
+msgid ""
+"Last retry was %s minutes ago and we will retry with ~%d min intervals up to "
+"%d attempts."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminLicensing.php:91
+msgid ""
+"Make sure it is possible to connect out of this webserver to license server "
+"at wpsynchro.com."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminLicensing.php:96
+#, php-format
+msgid "License is <u>valid</u> and <u>active</u>. Last checked %s hours ago."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminLicensing.php:101
+#, php-format
+msgid ""
+"License is NOT valid. Last checked %s hours ago. Change your key to a valid "
+"one or contact support if you have questions."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminLicensing.php:102
+msgid ""
+"To recheck your current key, just save the key again and it will be re-"
+"validated."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminLicensing.php:108
+msgid "License is not yet validated - Insert your license key and validate it."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminLicensing.php:115
+msgid "Change license key"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminLicensing.php:119
+msgid "New license key"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminLicensing.php:126
+msgid "Save license key and validate"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminLicensing.php:129
+msgid "Terms of use"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminLicensing.php:130
+msgid ""
+"By inserting your license key and saving it, you accept that we use this "
+"information to contact WP Synchro license server."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminLicensing.php:131
+msgid ""
+"After successful validation, the key will be revalidated every day to make "
+"sure it is still valid."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminLicensing.php:132
+msgid ""
+"On the server, the key will be checked and request is logged, along with "
+"your public IP address and site url."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminLicensing.php:133
+msgid "We dont save or send other information to the license server."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminLicensing.php:134
+msgid ""
+"For every synchronization, the license server will be contacted to verify "
+"the license and the active sites limit for your subscription."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminLicensing.php:135
+msgid ""
+"These requests contain only your license key and the urls of synchronization."
+" These will be logged along with your public IP address."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminLog.php:57
+msgid ""
+"See your last synchronizations and the result of them. Here you can also "
+"download the log file from the synchronization."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminLog.php:58
+msgid "Delete all logs"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminLog.php:59
+msgid "Synchronization date"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminLog.php:60
+msgid "Status"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminLog.php:61
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminOverview.php:131
+msgid "Description"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminLog.php:62
+msgid "Logfile"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminLog.php:63
+msgid "No synchronization are done yet."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminLog.php:64
+msgid "Show log"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminLog.php:65
+msgid "Download log"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminOverview.php:41
+#, php-format
+msgid ""
+"You have used WP Synchro %d times now - We hope you are enjoying it and have "
+"saved some time and troubles.<br>\n"
+"            We try really hard to give you a high quality tool for WordPress "
+"site migrations.<br>\n"
+"            If you enjoy using WP Synchro, we would appreciate your review "
+"on \n"
+"            <a href='https://wordpress.org/support/plugin/wpsynchro/reviews/?"
+"rate=5#new-post' target='_blank'>WordPress plugin repository</a>.<br>\n"
+"            Thank you for the help."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminOverview.php:126
+msgid "Rate WP Synchro on WordPress.org"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminOverview.php:127
+msgid "Dismiss forever"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminOverview.php:132
+msgid "Actions"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminOverview.php:133
+msgid "Run now"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminOverview.php:134
+msgid "Installation can not be run - See description"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminOverview.php:135
+msgid "Duplicate"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminOverview.php:136
+msgid "Schedule"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminOverview.php:137
+msgid "Delete"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminOverview.php:138
+msgid "Are you sure you want to delete this?"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminOverview.php:140
+msgid "Get started by adding a new installation..."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminOverview.php:141
+msgid "Scheduling a synchronization"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminOverview.php:142
+#, php-format
+msgid ""
+"To schedule a job to run at a certain time or with a certain interval, you "
+"need to have %sWP CLI%s installed."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminOverview.php:143
+msgid "With WP CLI installed, you can run this synchronization"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminOverview.php:144
+msgid "with this command"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminOverview.php:145
+msgid "Or if you want it in quiet mode, with no output"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminOverview.php:146
+msgid "You can add this command to cron and run it exactly how you want it."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminRunSync.php:36
+msgid "No syncid provided - This should not happen"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminRunSync.php:41
+msgid "No jobid provided - This should not happen"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminRunSync.php:52
+msgid "Installation not found - This should not happen"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminRunSync.php:67
+msgid ""
+"Could not get data from local REST service ({0}) - Maybe local server has "
+"troubles?"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminRunSync.php:68
+msgid ""
+"No proper response from local server - Maybe REST service is blocked? This "
+"can also be a temporary issue, if the host has issues. Please try again"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminRunSync.php:69
+msgid "Unknown error - Maybe this helps:"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminRunSync.php:76
+msgid "Run synchronization"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminRunSync.php:81
+msgid ""
+"Do not navigate away from this page until synchronization is completed - It "
+"may break your installation"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminRunSync.php:87
+msgid "Synchronization completed"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminRunSync.php:94
+msgid "Error(s) during synchronization:"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminRunSync.php:104
+msgid "WARNING(S) (synchronization will continue):"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminRunSync.php:114
+msgid "Manual steps might be needed to complete synchronization"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminRunSync.php:122
+msgid "Time elapsed"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminRunSync.php:122
+msgid "Hours"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminRunSync.php:122
+msgid "Minutes"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminRunSync.php:122
+msgid "Seconds"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminRunSync.php:126
+msgid "Stage"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSetup.php:156
+msgid "WP Synchro settings are now updated"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSetup.php:162
+msgid "The general configuration of WP Synchro."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSetup.php:165
+msgid "Configure settings"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSetup.php:168
+msgid ""
+"Configure the access key used for accessing this installation from remote. "
+"Treat the access key like a password and keep it safe from others."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSetup.php:170
+msgid "Generate new access key"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSetup.php:174
+msgid "Allowed methods"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSetup.php:176
+msgid "Allow pull - Allow this site to be downloaded"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSetup.php:177
+msgid "Allow push - Allow this site to be overwritten"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSetup.php:181
+msgid "Optimize compatibility"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSetup.php:183
+msgid "Enable MU Plugin to optimize WP Synchro requests (recommended)"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSetup.php:183
+msgid "(Network wide)"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSetup.php:187
+msgid "Slow hosting"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSetup.php:187
+msgid ""
+"Timeouts may happen if the two servers are geographically far apart or under "
+"heavy load. This can be enabled to better handle this and allow for large "
+"timeout margins."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSetup.php:189
+msgid "Optimize for slow hosting or slow connections between servers"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSetup.php:194
+msgid ""
+"If this site is protected by Basic Authentication access protection, you "
+"should fill out the username and password here. WP Synchro will use it to "
+"call local services for all synchronizations."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSetup.php:196
+msgid "username"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSetup.php:197
+msgid "password"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSetup.php:202
+msgid "Save settings"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSupport.php:69
+msgid "WP Synchro data clean up completed - It is nice and clean now"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSupport.php:74
+msgid "Here is how you get help on a support issue for WP Synchro."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSupport.php:75
+msgid "Getting support"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSupport.php:79
+msgid ""
+"You are on the PRO version with a validated license, so you have access to "
+"priority email support."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSupport.php:80
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSupport.php:97
+msgid "Contact us on"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSupport.php:81
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSupport.php:98
+msgid "Be sure to include relevant information, such as:"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSupport.php:84
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSupport.php:101
+msgid "Description of problem(s)"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSupport.php:85
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSupport.php:102
+msgid "Screenshot of problem(s)"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSupport.php:86
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSupport.php:103
+msgid "Result of Health check just below"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSupport.php:87
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSupport.php:104
+msgid "Log file from synchronization (found in menu \"Logs\")"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSupport.php:89
+msgid ""
+"We will then get back to you as soon as we have investigated and we will ask "
+"for further information if needed."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSupport.php:94
+msgid ""
+"You are using the free version of WP Synchro, which we also provide email "
+"support for."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSupport.php:95
+msgid ""
+"Users on the PRO version have priority support, so free version support "
+"requests can take more time depending on support load.<br>Check out <a "
+"href=\"https://wpsynchro.com\" target=\"_blank\">https://wpsynchro.com</a> "
+"on how to get the PRO version. The PRO version also contains more useful "
+"features, such as synchronizing files."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSupport.php:96
+msgid ""
+"If you just have a bug report, security issue or a good idea for WP Synchro, "
+"we would still like to hear from you."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSupport.php:109
+msgid "Health check"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSupport.php:113
+msgid "Debug JSON information"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSupport.php:114
+msgid ""
+"Contains debug information about the installation, such as configuration and "
+"file locations. No personal information is included."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSupport.php:117
+msgid "Delete WP Synchro data"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSupport.php:118
+msgid ""
+"Delete all data related to WP Synchro, in database and files. Can be used to "
+"clean up after WP Synchro if needed."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSupport.php:118
+msgid ""
+"Does not reset access key and license key setup, but removes data like log "
+"files and installations."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Pages/AdminSupport.php:122
+msgid "Delete all WP Synchro data"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/REST/ClientSyncDatabase.php:31
+msgid ""
+"Error from ClientSyncDatabase REST service - Check the log file for further "
+"information."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/REST/DatabaseBackup.php:102
+#, php-format
+msgid "Appending create table for database backup to %s failed."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/REST/DatabaseBackup.php:126
+#, php-format
+msgid "Appending databasebackup to %s failed."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/REST/HealthCheck.php:47
+msgid ""
+"WP Synchro database version is newer than the currently installed plugin "
+"version - Please upgrade plugin to newest version - Continue at own risk"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/REST/HealthCheck.php:56
+msgid ""
+"Access key for this site is not set - This needs to be configured for WP "
+"Synchro to work."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/REST/HealthCheck.php:72
+#, php-format
+msgid ""
+"Missing PHP extensions for WP Synchro to work. Enable extension(s) '%s' to "
+"php.ini and reload."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/REST/HealthCheck.php:81
+msgid ""
+"Plain permalinks is not supported in WP Synchro. You should change it to "
+"%postname% instead"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/REST/HealthCheck.php:89
+msgid ""
+"SAVEQUERIES constant is set. This is normally only for debugging. It will "
+"generate out of memory errors with WP Synchro synchronizations"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/REST/HealthCheck.php:123
+msgid ""
+"REST error - Can not reach 'initiate' REST service - Check that REST "
+"services is accessible and not being blocked"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/REST/HealthCheck.php:141
+msgid ""
+"REST error - Masterdata REST service returns improper response - Data was "
+"not returned in usable way - Check PHP error log"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/REST/HealthCheck.php:144
+msgid ""
+"REST error - Can not reach 'masterdata' REST service - Check that WP Synchro "
+"is activated and REST service accessible"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/REST/HealthCheck.php:156
+#, php-format
+msgid "WP Synchro log dir is not writable for PHP - Path: %s "
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/REST/HealthCheck.php:173
+#, php-format
+msgid ""
+"Path that WP Synchro might use for synchronization is not writable- Path: %s "
+"-  This can be caused by PHP's open_basedir setting or file permissions"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/REST/Initiate.php:37
+msgid ""
+"Pulling from this site is not allowed - Change configuration on remote server"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/REST/Initiate.php:39
+msgid ""
+"Pushing to this site is not allowed - Change configuration on remote server"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/REST/Initiate.php:53
+msgid ""
+"Remote host does not allow that - Make sure it is same WP Synchro version"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/REST/MasterData.php:41
+msgid "Error from remote server:"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/REST/PopulateFileList.php:165
+msgid ""
+"Could not create database table needed for file population on the source "
+"site - This is normally because database user does not have access to create "
+"tables on the database."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/REST/VerifyInstallation.php:140
+msgid ""
+"The website url does not seem to be valid - Please enter a valid website url"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/REST/VerifyInstallation.php:144
+msgid ""
+"The access key does not seem to be valid - Please enter a valid access key"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/REST/VerifyInstallation.php:149
+msgid ""
+"The type of installation does not seem to be valid - Please choose a valid "
+"installation type"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/REST/VerifyInstallation.php:195
+#, php-format
+msgid ""
+"Tried to get masterdata from %s, but got wrong response. Make sure WP "
+"Synchro health check runs without error on both sites."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/REST/VerifyInstallation.php:199
+#, php-format
+msgid ""
+"Could not get masterdata from %s - Check that WP Synchro is installed, "
+"connection to the site is not blocked and that health check runs without "
+"errors on the site"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Status/SynchronizeStatus.php:57
+msgid "Initialize"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Status/SynchronizeStatus.php:57
+msgid ""
+"Initiating synchronization on source and target and sets up security tokens "
+"on both ends"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Status/SynchronizeStatus.php:60
+msgid "Masterdata"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Status/SynchronizeStatus.php:60
+msgid ""
+"Fetching masterdata on both source and target and check that we are ready to "
+"synchronize"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Status/SynchronizeStatus.php:64
+msgid "Database backup"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Status/SynchronizeStatus.php:64
+msgid ""
+"Backup of database tables that will be changed by database sync. Backup "
+"location can be found in the log file, which can be found in the 'Logs' menu"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Status/SynchronizeStatus.php:69
+msgid "Synchronize the database, moving the database table rows to the target"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Status/SynchronizeStatus.php:74
+msgid "Synchronize the files, by comparing and transferring the missing files"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Status/SynchronizeStatus.php:78
+msgid "Finalizing"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Status/SynchronizeStatus.php:78
+msgid ""
+"Completes the synchronization by doing the last few steps and cleaning up"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Status/SynchronizeStatus.php:142
+msgid ""
+"The synchronization process seem to have problems - It may be PHP errors - "
+"please check the PHP logs"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Templates/card-facebook.php:3
+msgid "Follow us on Facebook"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Templates/card-facebook.php:4
+msgid ""
+"Get your WP Synchro related news directly on Facebook. We will keep you "
+"updated on changes, releases and post tips on how to improve your "
+"development workflow."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Templates/card-facebook.php:5
+msgid "FOLLOW US"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Templates/card-mailinglist.php:3
+msgid "Sign up to WP Synchro mailinglist"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Templates/card-mailinglist.php:4
+msgid ""
+"Get your WP Synchro news, developer workflow tips and release announcements "
+"directly in your mailbox."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Templates/card-mailinglist.php:5
+msgid "SIGN UP NOW"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Templates/card-pro-version.php:3
+msgid "Get PRO version now - Free 14 day trial"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Templates/card-pro-version.php:4
+msgid ""
+"<b>PRO Version also synchronize files</b>. Synchronize entire site or choose "
+"the files and directories you want to synchronize. Such as uploads, themes, "
+"plugins dirs. Only difference in files get transferred, which makes it <b>"
+"super fast</b>. You also get functionality to do <b>database backup</b>, <b>"
+"WP CLI command to schedule synchronization</b>, <b>Support for basic "
+"authentication</b>, <b>email notifications on success/failure</b> and <b>"
+"priority support</b>."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Templates/card-pro-version.php:6
+msgid "&#128161; Complete migration plugin solution"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Templates/card-pro-version.php:7
+msgid "&#128161; Easy to use, super fast and high security"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Templates/card-pro-version.php:8
+msgid "&#128161; Will save you a lot of time and troubles"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Templates/card-pro-version.php:11
+msgid "GET PRO VERSION"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Templates/card-pro-version.php:12
+msgid "30 day money back guarantee"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Transport/RemoteTransport.php:340
+#, php-format
+msgid "Entering retry with remaining time %f"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Transport/RemoteTransport.php:346
+#, php-format
+msgid "Aborting retries because we dont have enough time - Tried %d times "
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Transport/RemoteTransport.php:362
+#, php-format
+msgid "Got error connecting to service %s - Retry %d of %d "
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Transport/RemoteTransport.php:370
+#, php-format
+msgid "Could not connect to %s REST service (HTTP statuscode: %d)"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Transport/RemoteTransport.php:386
+#, php-format
+msgid ""
+"SSL certificate is not valid or self-signed on host %s. To allow non-valid "
+"SSL certificates when running a synchronization, make sure it is set to "
+"allowed."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Transport/RemoteTransport.php:388
+#, php-format
+msgid "REST error - Can not reach REST service on host %s. Error message: %s"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Transport/RemoteTransportResult.php:116
+msgid ""
+"Remote or local SSL certificate is not valid or self-signed. To allow non-"
+"valid SSL certificates, you need to edit the installation and change it."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Transport/RemoteTransportResult.php:144
+#, php-format
+msgid ""
+"The site %s is protected by Basic Authentication, which requires a username "
+"and password.\n"
+"                    If this is the remote site, the username/password should "
+"be added to the synchronization configuration.\n"
+"                    If the site is the 'local' site, you can add the "
+"username/password in the 'Setup' menu."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Transport/RemoteTransportResult.php:148
+#, php-format
+msgid ""
+"The site %s is protected by authentication of some kind, that we do not "
+"support.\n"
+"                    Contact support for further help and tell them this: "
+"Auth header was: %s"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Utilities/Activation.php:25
+msgid ""
+"WP Synchro does not support being network activated - Activate it on the "
+"sites needed instead. Beware that multisite is not supported, so use at own "
+"risk."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Utilities/Actions/EmailOnSyncFailure.php:72
+#, php-format
+msgid "[Synchronization failed] - Sync to %s failed"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Utilities/Actions/EmailOnSyncFailure.php:84
+#, php-format
+msgid ""
+"Hi, \n"
+"\n"
+"We just want to notify you that a synchronization has failed.\n"
+"The synchronization is to %s \n"
+"\n"
+"Synchronization is running on %s \n"
+"\n"
+"This is an automated email generated by WP Synchro plugin."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Utilities/Actions/EmailOnSyncSuccess.php:72
+#, php-format
+msgid "[Synchronization success] - From %s to %s"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Utilities/Actions/EmailOnSyncSuccess.php:84
+#, php-format
+msgid ""
+"Hi, \n"
+"\n"
+"We just want to notify you that a synchronization was successful.\n"
+"The synchronization was from %s to %s  \n"
+"\n"
+"Synchronization is running on %s \n"
+"\n"
+"This is an automated email generated by WP Synchro plugin."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Utilities/Compatibility/MUPluginHandler.php:64
+#, php-format
+msgid ""
+"MU plugin dir %s could not be created - It is probably a permission issue"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Utilities/Compatibility/MUPluginHandler.php:71
+#, php-format
+msgid "MU plugin dir %s is not writable - It is probably a permission issue"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Utilities/Compatibility/MUPluginHandler.php:87
+#, php-format
+msgid ""
+"MU plugin %s could not be copied to MU plugin dir - It is probably a "
+"permission issue"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Utilities/Compatibility/MUPluginHandler.php:105
+#, php-format
+msgid "MU plugin %s could not be deleted - It is probably a permission issue"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Utilities/ErrorHandler/CustomPHPErrorHandler.php:58
+#, php-format
+msgid "[%s] %s - Fatal error happened, which was triggered in %s on line %d"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Utilities/ErrorHandler/CustomPHPErrorHandler.php:68
+#, php-format
+msgid "[%s] %s - Warning in %s on line %d"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Utilities/ErrorHandler/CustomPHPErrorHandler.php:78
+#, php-format
+msgid "[%s] %s - Triggered in %s on line %d"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Utilities/JSData/HealthCheckData.php:27
+msgid "Health check for WP Synchro"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Utilities/JSData/HealthCheckData.php:28
+msgid ""
+"Check if this site will work with WP Synchro. It checks REST access, php "
+"extensions, hosting setup and more."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Utilities/JSData/HealthCheckData.php:29
+msgid "Performing basic health check"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Utilities/JSData/HealthCheckData.php:30
+msgid "Performing timeout test (will take up to {0} seconds)"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Utilities/JSData/HealthCheckData.php:31
+msgid "Errors found"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Utilities/JSData/HealthCheckData.php:32
+msgid "Warnings found"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Utilities/JSData/HealthCheckData.php:33
+msgid "Tip: These tests can be rerun in 'Support' menu."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Utilities/JSData/HealthCheckData.php:34
+msgid ""
+"Critical - Request to local WP Synchro health check REST service could not "
+"be sent or did not get no response."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Utilities/JSData/HealthCheckData.php:35
+msgid ""
+"Critical - Request to local WP Synchro health check REST service did not get "
+"a response at all."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Utilities/JSData/HealthCheckData.php:36
+msgid ""
+"Critical - Request to REST service did not respond properly - HTTP {0} - "
+"Maybe REST is blocked or returns invalid content. Response JSON:"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Utilities/JSData/HealthCheckData.php:37
+msgid ""
+"Critical - Request to REST service did not respond properly - Maybe REST is "
+"blocked or returns invalid content. Response JSON:"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Utilities/JSData/HealthCheckData.php:38
+msgid ""
+"Critical - Connection was cut off before the expected timeout in PHP. We got "
+"a timeout in ~{0} seconds, but expected {1}. This means that the webserver "
+"or another components is cutting PHP scripts off before it should - Contact "
+"your hosting to get this fixed"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Updater/Puc/v4p9/Plugin/Ui.php:54
+msgid "View details"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Updater/Puc/v4p9/Plugin/Ui.php:77
+#, php-format
+msgid "More information about %s"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Updater/Puc/v4p9/Plugin/Ui.php:128
+msgid "Check for updates"
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Updater/Puc/v4p9/Plugin/Ui.php:213
+#, php-format
+msgctxt "the plugin title"
+msgid "The %s plugin is up to date."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Updater/Puc/v4p9/Plugin/Ui.php:215
+#, php-format
+msgctxt "the plugin title"
+msgid "A new version of the %s plugin is available."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Updater/Puc/v4p9/Plugin/Ui.php:217
+#, php-format
+msgctxt "the plugin title"
+msgid "Could not determine if updates are available for %s."
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Updater/Puc/v4p9/Plugin/Ui.php:223
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr ""
+
+#: D:/development/wp-synchro/plugin/wpsynchro/includes/Updater/Puc/v4p9/Vcs/PluginUpdateChecker.php:98
+msgid "There is no changelog available."
+msgstr ""
+
+#. Name of the plugin
+msgid "WP Synchro"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Complete migration plugin for WordPress - Synchronization of database and "
+"files made easy"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wpsynchro.com/home"
+msgstr ""
+
+#. Author of the plugin
+msgid "WPSynchro"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://wpsynchro.com"
+msgstr ""
