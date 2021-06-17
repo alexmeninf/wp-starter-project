@@ -4,3 +4,4 @@ wp-content/wflogs/*
 wp-content/cache/*
 wp-content/mu-plugins/*
 wp-content/uploads/wpsynchro/
+.user.ini
