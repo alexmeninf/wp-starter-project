@@ -2,6 +2,7 @@ wp-config.php
 .htaccess
 .user.ini
 wordfence-waf.php
+.maintenance
 
 wp-content/wflogs/*
 wp-content/cache/*
