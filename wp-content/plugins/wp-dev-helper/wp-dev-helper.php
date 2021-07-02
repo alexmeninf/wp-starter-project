@@ -2,19 +2,19 @@
 /*
 Plugin Name: WP Dev Helper
 Description: An awesome plugin that help WordPress developers to develop their themes faster than ever.
-Version: 1.5.0
+Version: 1.5.1
 License: GPL
 Author: Alexandre Menin
 Author URI: https://github.com/alexmeninf
 Text Domain: wpdevhelper
 */
-require_once( ABSPATH . "wp-includes/pluggable.php" );
+require_once(ABSPATH . "wp-includes/pluggable.php");
 
 
 /*============================
 =            INFO            =
 ============================*/
-define('WPDEVHELPER_VERSION', '1.5.0');
+define('WPDEVHELPER_VERSION', '1.5.1');
 define('WPDEVHELPER_REPOSITORY', 'https://github.com/alexmeninf/wp-dev-helper');
 define('WPDEVHELPER__MINIMUM_WP_VERSION', '5.0');
 
@@ -27,9 +27,13 @@ if( $wpdh_user_level->user_level < 10 ){ // Show Developer link on menu only for
   hide_developers();
 } */
 
-function wpdh_remove_developer_options(){ remove_menu_page('wp-dev-helper'); }
-function hide_developers(){ // Cal this function to remove developer from admin side menu
-  add_action( 'admin_menu', 'wpdh_remove_developer_options', 999 );
+function wpdh_remove_developer_options()
+{
+  remove_menu_page('wp-dev-helper');
+}
+function hide_developers()
+{ // Cal this function to remove developer from admin side menu
+  add_action('admin_menu', 'wpdh_remove_developer_options', 999);
 }
 
 
@@ -38,13 +42,13 @@ function hide_developers(){ // Cal this function to remove developer from admin 
 ==============================================*/
 define('THEMEROOT', get_template_directory_uri());
 define('PLUGINROOT', plugins_url('', __FILE__));
-define('PLUGINPATH', plugin_dir_path( __FILE__));
+define('PLUGINPATH', plugin_dir_path(__FILE__));
 
 
 /*=================================
 =            LANGUAGES            =
 =================================*/
-load_theme_textdomain('wpdevhelper', PLUGINPATH.'languages');
+load_theme_textdomain('wpdevhelper', PLUGINPATH . 'languages');
 
 
 /*==================================
@@ -57,34 +61,38 @@ new WPUpdatesPluginUpdater_1608('http://wp-updates.com/api/2/plugin', plugin_bas
 /*=======================================
 =            INCLUDE ACF PRO            =
 =======================================*/
-include_once ABSPATH.'wp-admin/includes/plugin.php';
-if( !is_plugin_active('advanced-custom-fields-pro/acf.php') ){
+include_once ABSPATH . 'wp-admin/includes/plugin.php';
+if (!is_plugin_active('advanced-custom-fields-pro/acf.php')) {
   define('ACF_LITE', false);
-  require_once PLUGINPATH.'advanced-custom-fields-pro/acf.php';
-  include PLUGINPATH.'acf-code/acf-code.php';
+  require_once PLUGINPATH . 'advanced-custom-fields-pro/acf.php';
+  include PLUGINPATH . 'acf-code/acf-code.php';
 }
 
-include PLUGINPATH.'acf-options.php';
+include PLUGINPATH . 'acf-options.php';
 
 
 /*================================
 =            TIMTHUMB            =
 ================================*/
-function thumb($thumbArgs=''){
+function thumb($thumbArgs = '')
+{
   $thumb = '';
   $cntArgs = 1;
-  foreach( $thumbArgs as $key=>$value ){
-    if( $cntArgs > 1 ){ $thumb .= '&'; }
-    $thumb .= $key.'='.$value;
+  foreach ($thumbArgs as $key => $value) {
+    if ($cntArgs > 1) {
+      $thumb .= '&';
+    }
+    $thumb .= $key . '=' . $value;
     $cntArgs++;
   }
-  return PLUGINROOT.'/thumb/?'.$thumb;
+  return PLUGINROOT . '/thumb/?' . $thumb;
 }
 
 /*====================================================
 =            REGISTER POST TYPE GENERATOR            =
 ====================================================*/
-function new_post_type_generator(){
+function new_post_type_generator()
+{
   $labels = array(
     'name'                  => _x('Post Types', 'Post Type General Name', 'wpdevhelper'),
     'singular_name'         => _x('Post Type', 'Post Type Singular Name', 'wpdevhelper'),
@@ -141,7 +149,8 @@ add_action('init', 'new_post_type_generator', 0);
 /*============================================================
 =            REGISTER POST TYPE DASHBOARD WIDGETS            =
 ============================================================*/
-function dashboard_widget_post_type(){
+function dashboard_widget_post_type()
+{
   $labels = array(
     'name'                  => _x('Dashboard Widgets', 'Post Type General Name', 'wpdevhelper'),
     'singular_name'         => _x('Dashboard Widget', 'Post Type Singular Name', 'wpdevhelper'),
@@ -198,15 +207,15 @@ add_action('init', 'dashboard_widget_post_type', 0);
 /*==============================================================
 =            HTML, CSS, JS MINIFIER; DUPLICATE POST            =
 ==============================================================*/
-include_once PLUGINPATH.'php-html-css-js-minifier.php'; # minify_css(); minify_html(); minify_js();
-include_once PLUGINPATH.'duplicate-post.php';
+include_once PLUGINPATH . 'php-html-css-js-minifier.php'; # minify_css(); minify_html(); minify_js();
+include_once PLUGINPATH . 'duplicate-post.php';
 
 
 /*=================================================
 =            INIT/CONFIG WP DEV HELPER            =
 =================================================*/
-include_once PLUGINPATH.'class.developers.php';
-include_once PLUGINPATH.'class.wpdevhelper.php';
+include_once PLUGINPATH . 'class.developers.php';
+include_once PLUGINPATH . 'class.wpdevhelper.php';
 
 $wpdh = new Developers();
 $wpdh = new WPDevHelper();
@@ -222,16 +231,16 @@ $wpdh->developersWPHeadFavicon();
 $wpdh->developersTemplateSettingsUnderConstruction();
 $wpdh->developersOthersDuplicate();
 $wpdh->developersAdvancedWPHead();
-$wpdh->developersAdvancedCustomCSS( $wpdhCssCode=minify_css(get_field('wpdevhelperAdvanced-custom_css', 'option')) );
-$wpdh->developersAdvancedCustomJSHead( $wpdhJsHeadCode=minify_js(get_field('wpdevhelperAdvanced-custom_js_head', 'option')) );
-$wpdh->developersAdvancedCustomJSFooter( $wpdhJsFooterCode=minify_js(get_field('wpdevhelperAdvanced-custom_js_footer', 'option')) );
-$wpdh->developersAdvancedGoogleAnalytics();
+$wpdh->developersAdvancedCustomCSS($wpdhCssCode = minify_css(get_field('wpdevhelperAdvanced-custom_css', 'option')));
+$wpdh->developersAdvancedCustomJSHead($wpdhJsHeadCode = minify_js(get_field('wpdevhelperAdvanced-custom_js_head', 'option')));
+$wpdh->developersAdvancedCustomJSFooter($wpdhJsFooterCode = minify_js(get_field('wpdevhelperAdvanced-custom_js_footer', 'option')));
 
 /*=======================================================
 =            MAINTENANCE MODE -> COMING SOON            =
 =======================================================*/
 add_action('get_header', 'maintenace_mode');
-function maintenace_mode() {
+function maintenace_mode()
+{
   /* if( !current_user_can( 'edit_themes' ) || !is_user_logged_in() ) {
     wp_die( __('Maintenance.', 'wpdevhelper') );
   } */
@@ -242,32 +251,33 @@ function maintenace_mode() {
 =            CONFIG NEW CUSTOM POST TYPES            =
 ====================================================*/
 $postTypes = get_posts('post_type=new_post_type&posts_per_page=-1');
-if( count($postTypes) >= 1 ){
-  foreach( $postTypes as $postType ){
-    add_action('init', function() use ($postType){
+if (count($postTypes) >= 1) {
+  foreach ($postTypes as $postType) {
+    add_action('init', function () use ($postType) {
       $postTypeArgs = array();
       # Custom archives
-      if( get_field('wpdevhelper-posttype-enable_archives', $postType->ID) == 'custom' ){
+      if (get_field('wpdevhelper-posttype-enable_archives', $postType->ID) == 'custom') {
         $postTypeArgs['has_archive'] = get_field('wpdevhelper-posttype-custom_archive_slug', $postType->ID);
-      }else{
+      } else {
         $postTypeArgs['has_archive'] = get_field('wpdevhelper-posttype-enable_archives', $postType->ID) === 'true' ? true : false;
       }
       # Custom query
-      if( get_field('wpdevhelper-posttype-query', $postType->ID) == 'custom' ){
+      if (get_field('wpdevhelper-posttype-query', $postType->ID) == 'custom') {
         $postTypeArgs['query_var'] = get_field('wpdevhelper-posttype-custom_query', $postType->ID);
       }
       # Base capabilities
-      if( get_field('wpdevhelper-posttype-capabilities', $postType->ID) == 'base' ){
+      if (get_field('wpdevhelper-posttype-capabilities', $postType->ID) == 'base') {
         $postTypeArgs['capability_type'] = get_field('wpdevhelper-posttype-base_capability_type', $postType->ID);
       }
       # Rest API
-      if( get_field('wpdevhelper-posttype-rest_api', $postType->ID) == true ){
+      if (get_field('wpdevhelper-posttype-rest_api', $postType->ID) == true) {
         $postTypeArgs['show_in_rest'] = true;
         $postTypeArgs['rest_base'] = get_field('wpdevhelper-posttype-rest_base', $postType->ID);
         $postTypeArgs['rest_controller_class'] = get_field('wpdevhelper-posttype-rest_controller_class', $postType->ID);
       }
       # Register post type
-      register_post_type(get_field('wpdevhelper-posttype-post_type_key', $postType->ID),
+      register_post_type(
+        get_field('wpdevhelper-posttype-post_type_key', $postType->ID),
         [
           'labels' => [
             'name' => __(get_field('wpdevhelper-posttype-name_plural', $postType->ID), 'Post Type General Name', get_field('wpdevhelper-posttype-text_domain', $postType->ID)),
@@ -324,25 +334,28 @@ if( count($postTypes) >= 1 ){
 /*==================================================
 =            ENQUEUE STYLES AND SCRIPTS            =
 ==================================================*/
-if( !function_exists('new_js') && !function_exists('new_css') ){
-  include_once PLUGINPATH.'wp-enqueue-styles.php';
-  include_once PLUGINPATH.'wp-enqueue-scripts.php';
+if (!function_exists('new_js') && !function_exists('new_css')) {
+  include_once PLUGINPATH . 'wp-enqueue-styles.php';
+  include_once PLUGINPATH . 'wp-enqueue-scripts.php';
 }
 
 /*----------  Custom style  ----------*/
 add_filter('admin_enqueue_scripts', 'admin_header_styles', 10);
-function admin_header_styles() {
-  wp_enqueue_style( 'my_custom_style', PLUGINROOT.'/assets/css/style.css' );
+function admin_header_styles()
+{
+  wp_enqueue_style('my_custom_style', PLUGINROOT . '/assets/css/style.css');
 }
 
 /*----------  Custom script  ----------*/
 add_filter('admin_enqueue_scripts', 'admin_footer_scripts', 10);
-function admin_footer_scripts() {
-  wp_enqueue_script( 'my_custom_script', PLUGINROOT.'/assets/js/scripts.js' );
+function admin_footer_scripts()
+{
+  wp_enqueue_script('my_custom_script', PLUGINROOT . '/assets/js/scripts.js');
 }
 
 /*----------  Footer description  ----------*/
 add_filter('admin_footer_text', 'admin_footer_text');
-function admin_footer_text(){
+function admin_footer_text()
+{
   echo '<span id="footer-thankyou">Desenvolvido por <a href="https://www.comet.com.br/" target="_blank">Comet</a></span>.';
 }

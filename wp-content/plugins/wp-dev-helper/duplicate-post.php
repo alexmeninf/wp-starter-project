@@ -100,4 +100,3 @@ function rd_duplicate_post_link( $actions, $post ) {
   }
   return $actions;
 }
-?>
